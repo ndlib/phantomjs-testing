@@ -31,6 +31,7 @@ page.open(url, function() {
     }, 5000)
   } else {
     page.render(output)
+    phantom.exit()
   }
 
 
